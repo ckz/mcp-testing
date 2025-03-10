@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Previous head and style sections remain unchanged -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beyond Human Imagination - AI Art Gallery</title>
     <style>
+        /* All previous styles remain unchanged */
         * {
             margin: 0;
             padding: 0;
@@ -197,6 +199,7 @@
         </header>
 
         <div class="gallery">
+            <!-- Previous 9 gallery items remain unchanged -->
             <div class="gallery-item" onclick="openModal(0)">
                 <img src="/images/quantum-realm.webp" alt="Quantum Realm Architecture">
                 <div class="description">
@@ -268,6 +271,23 @@
                     <p>A grand clockwork tree bridging physical and digital realms.</p>
                 </div>
             </div>
+
+            <!-- New images added -->
+            <div class="gallery-item" onclick="openModal(9)">
+                <img src="/images/thousand-miles.webp" alt="A Thousand Miles in a Day (一日千里)">
+                <div class="description">
+                    <h3>A Thousand Miles in a Day (一日千里)</h3>
+                    <p>Futuristic visualization of rapid advancement through space and time.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" onclick="openModal(10)">
+                <img src="/images/winter-coming.webp" alt="Winter is Coming (凛冬将至)">
+                <div class="description">
+                    <h3>Winter is Coming (凛冬将至)</h3>
+                    <p>A crystalline fortress facing an approaching cosmic winter.</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -287,6 +307,7 @@
 
     <script>
         const artworks = [
+            // Previous 9 artworks remain unchanged
             {
                 title: "Quantum Realm Architecture",
                 image: "/images/quantum-realm.webp",
@@ -340,6 +361,19 @@
                 image: "/images/mechanical-tree.webp",
                 description: "A magnificent fusion of nature and technology, this mechanical tree of life represents the interconnectedness of all existence. Each branch is a precisely crafted clockwork mechanism that channels flowing energy, while its roots extend into both physical and digital realms.",
                 technical: "Integrates procedural generation algorithms for the organic tree structure with mechanical design systems, using advanced materials rendering to create the metallic and energy effects."
+            },
+            // New artworks added
+            {
+                title: "A Thousand Miles in a Day (一日千里)",
+                image: "/images/thousand-miles.webp",
+                description: "A futuristic interpretation of the Chinese idiom '一日千里' (Yi Ri Qian Li), meaning 'a thousand miles in a day'. This piece visualizes rapid advancement and progress through a sleek vehicle breaking through the space-time continuum, representing humanity's relentless pursuit of advancement and innovation.",
+                technical: "Combines cyberpunk aesthetics with quantum physics visualization techniques, utilizing advanced particle systems and light trail effects to create the impression of movement through multiple dimensions of space-time."
+            },
+            {
+                title: "Winter is Coming (凛冬将至)",
+                image: "/images/winter-coming.webp",
+                description: "A fantasy-futuristic visualization of '凛冬将至' (Lin Dong Jiang Zhi), meaning 'Winter is Coming'. This piece depicts a colossal crystalline fortress emerging from swirling dark clouds, where advanced technology meets the raw power of nature, symbolizing preparation for approaching challenges.",
+                technical: "Utilizes advanced atmospheric rendering techniques combined with crystalline structure generation algorithms, incorporating holographic effects and energy shield simulations to create a unique blend of fantasy and futuristic elements."
             }
         ];
 
